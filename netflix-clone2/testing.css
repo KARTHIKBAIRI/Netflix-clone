@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.imgs img{
+    height: 200px;
+    width: 300px;
+    display: block;
+}
+.imgs img:nth-child(2){
+    margin:0 0 0 300px;
+}
+.imgs img:nth-child(3){
+    margin:0 0 0 600px;
+}
+button{
+    margin: 3px 20px;
+    padding: 4px 20px;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease,color 0.3s ease; */
+}
+button:hover{
+    /* background-color: rgb(226, 83, 43);
+    color: white; */
+    animation: anna 1s ease forwards 0.2s infinite;
+}
+@keyframes anna {
+    0%{
+        background-color: red;
+        color: white;
+    }
+    100%{
+        background-color: orange;
+        color: rgb(235, 228, 228);
+    }
+}

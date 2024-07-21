@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@100;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+nav .logo1 {
+  width: 120px;
+  object-fit: contain;
+  margin: 10px 30px 10px 42px;
+}
+
+nav button {
+  border: none;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+nav .lang {
+  width: 130px;
+    padding: 3px 15px 3px 15px;
+    background-color: #000;
+    border: 0.1px solid #777;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 16px 32px 5px 15px;
+}
+
+nav .lang svg{
+  margin:5px 10px 0 -10px;
+}
+
+nav .lang span{
+  margin-left: 3px;
+  font-size: 0.7rem;
+}
+
+nav .signin {
+  margin: -46px 34px -3px -23px;
+  padding: 10px 16px 4px 16px;
+  background-color: rgb(228, 33, 33);
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight:700;
+  border-radius: 0.2rem;
+}
+
+nav .signin a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav .signin:hover{
+  background-color: rgb(179, 21, 21);
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(assets/jpg/banner/home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.header-title h1{
+    font-size: 3.6rem;
+    font-weight: 900;
+    line-height: 70px;
+    max-width: 700px;
+}
+
+.header-title h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.header-title p{
+    color: hsl(0, 5%, 72%);
+    font-weight: 400;
+}
+
+.email_form{
+    width: 680px;
+    display: flex;
+}
+
+.email_form input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    width: 800px;
+    height: 56px;
+    background-color: transparent;
+    margin: 18px 0px 13px 73px;
+    border: 1PX solid rgb(155,154,154);
+    border-radius: 4px;
+    background-color:#2b2f3f;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.email_form input::placeholder{
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0px 3%;
+    color: #fff;
+}
+
+.email_form button{
+    background-color: rgb(217, 39, 39);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size:1.7rem ;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 7px 30px 0px 30px;
+    margin: 18px 2px 13px 12px;
+    border-radius: 5px;
+}
+
+.email_form button i{
+  padding-left: 10px;
+   font-size: 1.5rem;
+   font-weight: 50;
+}
+
+.container{
+  display: flex;
+}
+
+.container1{
+  display: flex;
+}
+
+.container_title{
+  padding: 10% 6%;
+}
+
+.container_title h1{
+  font-size: 3rem;
+  font-weight: 600;
+  padding-left: 20%;
+}
+
+.container_title p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-left: 20%;
+  margin: 3% 0;
+  max-width: 900px;
+}
+
+.container img{
+  margin-right: 10rem;
+  max-width: 100%;
+  height: 400px;
+}
+
+.container1 img{
+  margin: 0 0rem 0 14rem;
+  max-width: 100%;
+  height: 400px;
+}
+
+.container_title1{
+  padding: 10% 6%;
+}
+
+.container_title1 h1{
+  font-size: 3rem;
+  font-weight: 600;
+  padding-left: 10%;
+}
+
+.container_title1 p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-left: 10%;
+  margin: 3% 0;
+  max-width: 900px;
+}
+
+.minibar{
+  background-color: #222;
+  max-width: 100%;
+  height: 10px;
+}
+
+.faq{
+  padding: 4% 12%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.faq h1{
+ font-weight: 800;
+ font-size: 3rem;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq ul{
+  margin: 60px auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.faq ul li{
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.faq ul li label{
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 500;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  cursor: pointer;
+  margin-bottom: 3px;
+  position: relative;
+}
+
+label::after{
+  content: '+';
+  font-size: 35px;
+  position: absolute;
+  right: 25px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.faq .content{
+  background-color: #3a3a3a;
+  text-align: center;
+  padding: 0 2%;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.header-title2{
+  text-align: center;
+}
+
+.email_form2{
+  margin-left: 26%;
+  width: 680px;
+  display: flex;
+}
+
+.email_form2 input{
+  flex: 1;
+  border: 0;
+  outline: 0;
+  width: 800px;
+  height: 56px;
+  background-color: transparent;
+  margin: 18px 0px 13px 73px;
+  border: 1PX solid rgb(155,154,154);
+  border-radius: 4px;
+  background-color:#2b2f3f;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.email_form2 input::placeholder{
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0px 3%;
+  color: #fff;
+}
+
+.email_form2 button{
+  background-color: rgb(217, 39, 39);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size:1.7rem ;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 7px 30px 0px 30px;
+  margin: 18px 2px 13px 12px;
+  border-radius: 5px;
+}
+
+.email_form2 button i{
+padding-left: 10px;
+ font-size: 1.5rem;
+ font-weight: 50;
+}
+
+footer {
+  padding: 50px 15% 10px;
+  border-top: 5px solid #333;
+  color: #666;
+}
+
+footer h1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+footer .row {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+footer .col {
+  margin: 10px 50px;
+}
+
+footer .col a {
+  text-decoration: none;
+  color: #666;
+  font-size: 1rem;
+  display: block;
+  padding: 10px;
+}
+
+.btn3 {
+  background: transparent;
+  border: 2px solid #666;
+  font-size: 1rem;
+  color: #666;
+  border-radius: 3px;
+  margin: 0 58px;
+  padding: 4px 3px;
+}
+
+.head3 {
+  font-size: 1rem;
+  padding: 20px 0;
+  color: #666;
+  font-weight: 400;
+  margin: 0 58px;
+}
+
+i {
+  padding: 2px;
+  color: #fff;
+}
